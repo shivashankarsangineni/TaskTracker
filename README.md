@@ -1,14 +1,14 @@
 # Team Task Manager
 
-A full-stack web application to manage projects and tasks with role-based access.
+A full-stack web application to manage projects and tasks with role-based access control.
 
 ## 🚀 Features
 
-* User Authentication (JWT)
-* Role-based access (Admin / Member)
-* Project management
-* Task assignment & tracking
-* Dashboard with task stats
+* User Authentication (Signup/Login)
+* Role-based Access (Admin / Member)
+* Project Management
+* Task Assignment & Status Tracking
+* Dashboard with task overview
 
 ## 🧱 Tech Stack
 
@@ -17,34 +17,18 @@ A full-stack web application to manage projects and tasks with role-based access
 * Database: MongoDB
 * Deployment: Railway
 
-## ⚙️ Setup Instructions
-
-### 1. Clone repo
-
-git clone https://github.com/your-username/team-task-manager.git
-
-### 2. Backend setup
-
-cd backend
-npm install
-
-Create `.env`:
-MONGO_URI=your_mongo_url
-JWT_SECRET=your_secret
-PORT=5000
-
-npm start
-
-### 3. Frontend setup
-
-cd frontend
-npm install
-npm run dev
-
 ## 🌐 Live Demo
 
-Add your deployed link here
+[open](https://crew-task-mate.lovable.app)
 
-## 🎥 Demo Video
+## ⚙️ Setup
 
-Add your video link here
+1. Clone the repository
+2. Install dependencies (frontend & backend)
+3. Add environment variables
+4. Run the application
+
+## 📌 Note
+
+This project was developed using AI-assisted tools. I understand the overall workflow and can explain or extend the application if required.
+
